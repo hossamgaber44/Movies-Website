@@ -1,0 +1,109 @@
+.navbar {
+    background: var(--nav_background);
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 70px;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .nav-content .nav-logo {
+    color: var(--secondary_color);
+    height: 70px;
+}
+
+.navbar .nav-content .search {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    flex-basis: 62%;
+}
+
+.navbar .nav-content .search input:hover {
+    width: 100%;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .nav-content .search input {
+    margin: auto;
+    width: 46%;
+    padding: 14px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: all .4s ease-in-out;
+    display: block;
+}
+
+.navbar .nav-content .nav-icon i,
+.navbar .nav-content .nav-icon .icon {
+    text-decoration: underline;
+    color: #551a8b;
+    font-size: 20px;
+    background: #EEEEEE;
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 14px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.navbar .nav-content .nav-icon {
+    display: none;
+}
+
+.navbar .nav-content .nav-authentication .userInformation {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.navbar .nav-content .nav-authentication a,
+.navbar .nav-content .nav-authentication span {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+@media(max-width:870px) {
+    .navbar .nav-content .nav-icon {
+        display: block;
+    }
+
+    .navbar .nav-content .search {
+        width: 80%;
+        top: -60px;
+        position: fixed;
+        right: 50%;
+        transform: translateX(50%);
+        transition: all .4s ease-in-out;
+    }
+
+    .navbar .nav-content .search input:hover {
+        width: 100%;
+        transition: all .4s ease-in-out;
+    }
+}
+@media(max-width:430px) {
+    .navbar .nav-content .nav-logo {
+        width: 48%;
+    }
+}
+@media(max-width:360px) {
+    .navbar .nav-content .nav-logo {
+        width: 40%;
+    }
+}
+
+

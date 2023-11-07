@@ -1,0 +1,24 @@
+.moviesInfo-content {
+    margin: 0px 0px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-bottom: 1.5px solid var(--secondary_color);
+}
+
+.moviesInfo-content .movie-post {
+    width:240px;
+    height: 352px;
+    margin: 0px 30px 12px 0px;
+}
+
+.moviesInfo-content .movie-details h3 {
+    color: var(--secondary_color);
+    margin: 14px 4px;
+}
+
+.moviesInfo-content .movie-details h3 span{
+    color: var(--p_color);
+    font-size: 16px;
+}

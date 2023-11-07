@@ -1,0 +1,19 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 6px;
+}
+.title .favourite-header{
+    color: var( --secondary_color);
+}
+.title .title-link{
+    text-decoration: none;
+    background: #042bb9; 
+    color: var(--secondary_color);
+    padding: 12px 8px;
+    border-radius: 8px;
+}
+.title .title-link:hover{
+    background: #021868;  
+}

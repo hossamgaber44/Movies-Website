@@ -1,0 +1,68 @@
+.register {
+    padding-top: 70px;
+}
+
+.register .register-content {
+    width: 400px;
+    height: 500px;
+    margin: 6px auto 0px auto;
+    text-align: center;
+}
+.register .register-content  .register-logo{
+    color: blueviolet;
+    font-size: 48px;
+    text-decoration: underline;
+    margin-bottom: 22px;
+}
+
+.register .register-content  .register-title{
+    font-size: 30px;
+    color: #ffffff;
+}
+.register .register-content form .form-input{
+    width: 80%;
+    margin: 28px auto;
+    position: relative;
+}
+
+.register .register-content form .form-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 22px;
+    padding: 12px 14px;
+}
+/*
+.register .register-content form .form-input .input-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+} 
+*/
+.register .register-content form .register-submit,
+.register .register-content form .register-submit-wait{
+    width: 30%;
+    margin: 6px auto 14px;
+    font-size: 15px;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 14px;
+    cursor: pointer;
+}
+.register .register-content form .register-submit-wait{
+    opacity: .7;
+}
+.register .register-content form .to-signin{
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+.register .register-content form .to-signin a{
+    color: #009fff;
+}
+
+
+
+
+

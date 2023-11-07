@@ -1,0 +1,128 @@
+.login {
+    padding-top: 70px;
+}
+
+.login .login-content {
+    width: 400px;
+    height: 500px;
+    margin: 6px auto 0px auto;
+    text-align: center;
+}
+
+.login .login-content .login-logo {
+    color: blueviolet;
+    font-size: 48px;
+    text-decoration: underline;
+    margin-bottom: 22px;
+}
+
+.login .login-content .login-title {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.login .login-content form .form-input {
+    width: 80%;
+    margin: 28px auto;
+    position: relative;
+}
+
+.login .login-content form .form-input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 22px;
+    padding: 12px 14px;
+}
+
+.login .login-content form .form-input .input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.login .login-content form .login-submit,
+.login .login-content form .login-submit-wait {
+    width: 30%;
+    margin: 6px auto 14px;
+    font-size: 15px;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 14px;
+    cursor: pointer;
+}
+
+.login .login-content form .login-submit-wait {
+    opacity: .7;
+}
+
+.login .login-content form .to-signup {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+
+.login .login-content form .to-signup a {
+    color: #009fff;
+}
+
+.login .login-content .break {
+    width: 80%;
+    position: relative;
+    margin: 24px auto;
+}
+
+.login .login-content .break-line {
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    line-height: 30px;
+}
+
+.login .login-content .break-text {
+    position: absolute;
+    background: var(--body_background);
+    padding: 0px 12px;
+    color: var(--secondary_color);
+    top: 50%;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login .login-content .continue .continue-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 18px 0px 14px;
+}
+
+.login .login-content .continue .continue-btn {
+    margin: 12px 0px;
+    text-align: center;
+    padding: 4px 0px 24px;
+}
+
+.login .login-content .continue .continue-btn a {
+    font-size: 18px;
+    border: 1px solid #4d5051;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #0077b6;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.login .login-content .continue .continue-btn a:hover {
+    transform: rotate(360deg);
+}
+
+.login .login-content .continue .continue-btn .facebook {
+    font-size: 20px;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    margin: 0px 14px 0px;
+}
